@@ -166,14 +166,6 @@
 		var scroll_img = $(this).find('img');
 		var img_ht = scroll_img.height();
     var scroll = $(window).scrollTop();
-		scroll.hover(
-			function(){
-				scroll.stop().animate({'top': 264-img_ht});
-			},
-			function(){
-				scroll.stop().animate({'top': 0});
-			}
-		);
 	});
 
 	var balloon = $('<div class="balloon"></div>').appendTo('body');
