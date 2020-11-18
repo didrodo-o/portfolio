@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>table2</title>
+	<link rel="stylesheet" href="css/table.css"/>
+	</head>
+	
+	<!-- 테이블 thead,tbody,tfoot -->
+
+	<body>
+	<table>
+		<caption>등잔펜션 객실안내</caption>
+	<colgroup>
+		<col style="background: skyblue;"/>
+		<col/>
+		<col span="2" style="background: #ffff66"/>
+	</colgroup>
+		<thead>
+			<tr>
+				<th>방이름</th>
+				<th>대상</th>
+				<th>크기</th>
+				<th>가격</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="4">바깥채 전체를 렌트합니다-tfoot은 알아서 아래로 내려감</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<th>달님방</th>
+				<td>남성용</td>
+				<td>4인실</td>
+				<td>20만원</td>
+			</tr>
+			<tr>
+				<th>햇님방</th>
+				<td>여성용</td>
+				<td>4인실</td>
+				<td>18만원</td>
+			</tr>
+		</tbody>
+
+	</table>
+</body>
+</html>

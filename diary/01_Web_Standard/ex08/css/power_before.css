@@ -1,0 +1,13 @@
+﻿html{overflow-y: scroll;}
+
+#box1{background-color: #ff6699; overflow: hidden; height: 200px;}
+#box2{background-color: #ffcc99; overflow: auto; height: 200px;}
+#box3{background-color: #33ccff; overflow: scroll; height: 200px;}
+
+#box4{position: relative; background: #66cc33; height: 400px; clear: left;}
+#box4 h1{position: absolute; clip: rect(0px, 200px, 150px, 0px);}
+
+#box5{position: relative; background: #cc99ff; height: 400px;}
+#box5 h1{position: absolute; clip: rect(150px, 200px, 400px, 0px);}
+
+/* clip만 좌표점 y,x,y,x순 */

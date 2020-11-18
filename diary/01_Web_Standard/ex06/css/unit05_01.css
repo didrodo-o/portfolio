@@ -1,0 +1,5 @@
+﻿dl span{display: block; text-decoration: underline; line-height: 150%}
+h2>span{color: #ff0000;}
+
+/* dl span자손선택자 */
+/* h2>span자식선택자 */

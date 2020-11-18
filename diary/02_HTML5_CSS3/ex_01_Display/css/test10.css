@@ -1,0 +1,8 @@
+﻿#header{width: 1200px; height: 400px; background: #ffff00; position: relative; margin: 0 auto;}
+
+.box1{width: 100px; height: 100px; background: #ff0000; border: 10px solid black;}
+.box2{width: 100px; height: 100px; background: #00ff00; border: 10px solid black; -moz-box-sizing: content-box;}
+.box3{width: 100px; height: 100px; background: #0000ff;border: 20px solid black; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

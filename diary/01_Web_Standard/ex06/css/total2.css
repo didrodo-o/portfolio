@@ -1,0 +1,31 @@
+﻿/* 전체 선택자 */
+*{margin: 0px; padding: 0px; font-family:'맑은 고딕', Arial, sans-serif;}
+
+/* body 선택자 */
+body{margin: 50px;}	
+
+/* 하이퍼링크 디자인 */
+a{text-decoration: none; font-size: 12px;}
+a:visited, a:link{color: grey;}
+a:hover, a:active{color: black;}
+
+/* div 요소 디자인  */
+div{width: 150px; margin-bottom: 50px;}
+#categoryBox{border: 5px solid #037f7f;}
+#bbsBox{border: 5px solid #ff0f94;}
+
+/* h1 요소 디자인 */
+h1{padding-left: 15px;}
+#categoryBox h1{border-bottom:1px solid #c1c1c1;}
+
+/* ul 요소 디자인 */
+ul{padding: 0px 0px 20px 15px; list-style: none;}
+
+/* cookMenu 클래스안에 위치한 첫번째 li 요소 안에 위치한 하이퍼링크 텍스트 디자인*/ 
+.cookMenu li:first-child a{font-weight: bold; color: #000000;}
+
+/* bbsMenu 클래스 안에 위치한 각 하이퍼링크 텍스트 디자인 */
+.bbsMenu li a{color: #ffffff; line-height:180%}
+.bbsBox1{background-color: red;}
+.bbsBox2{background-color: green;}
+.bbsBox3{background-color: blue;}

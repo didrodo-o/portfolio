@@ -1,0 +1,39 @@
+﻿*{margin: 0; padding: 0; border: 0;}
+html{overflow-y: scroll;}
+ul, li{list-style: none;}
+.cf:after{content: ''; clear: both; display: block;}
+
+
+body{/* background: url(../images/board.png)no-repeat center top; */ font: 14px 'Nanum Gothic', '맑은 고딕', sans-serif;}
+#board_wrap{width: 900px; margin: 0 auto; height: 700px;  position:relative;}
+li{float: left;}
+.list{clear:left;}
+
+#title{width: 100%; height: 73px;}
+h1{text-indent: 22px; color: #333333; font-size: 2.3em; letter-spacing: -1px;}
+#sc_form{float:right; margin-right: 25px; height: 34px; display: block;}
+select{width:92px; height: 35px; border: 1px solid #bfbfbf; font-size: 1.1em; color: #666666;}
+input[type=search]{width: 144px; height: 35px; border: 1px solid #bfbfbf; padding-top:3px;  font-size: 1.1em; margin: 0 -4px 0 3px;}
+input[type=submit]{width: 65px; height: 35px; background-color: #676767; color: #ffffff;  font-size: 1.1em;}
+#board{width: 851px; height:571px; position: absolute; top: 118px; left:22px; letter-spacing:-1px;}
+.subtitle{ background-color: #fafafa; color: #555555; height:51px; border-top:1px solid #7c7c7c;  border-bottom:1px solid #dddddd; line-height: 51px; text-align: center;}
+.list{color: #555555; height:51px; border-bottom:1px solid #dddddd; line-height: 51px;}
+.first{width:68px; border-right:1px solid #dddddd; text-align: center;}
+.nth2{padding-left:11px; width:576px; border-right:1px solid #dddddd;}
+.nth3{width:110px; border-right:1px solid #dddddd;  text-align: center;}
+.last{width:83px; text-align: center;}
+.board_nav{width: 272px; height: 30px; line-height: 30px; margin: 18px auto;}
+.board_nav a{display: block; float: left; width: 30px; height: 30px; font-size: 1em; text-decoration: none; margin: 2px; text-align: center; line-height: 30px; color: #555555;}
+.board_nav a.page_nb:hover{display: block; float: left; width: 30px; height: 30px; font-size: 1em;  background-color: #00a3fa; text-decoration: none; margin: 2px; text-align: center; line-height: 30px; color: #ffffff; font-weight: bold; border-radius:15px;}
+.board_nav a.page_nb:active{display: block; float: left; width: 30px; height: 30px; font-size: 1em;  background-color: #00a3fa; text-decoration: none; margin: 2px; text-align: center; line-height: 30px; color: #ffffff; font-weight: bold; border-radius:15px;}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+  src: url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+       url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+       url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
+}

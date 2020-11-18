@@ -1,0 +1,7 @@
+﻿li:first-child{color: pink; background-color: brown; width: 500px; padding: 5px;}
+li:nth-child(even){color: brown; background-color: silver; width: 500px; padding: 5px;}
+li:nth-child(odd){color: yellow; background-color: #000000; width: 500px; padding: 5px;}
+li:nth-child(3){color: silver; background-color: red; width: 500px; padding: 5px;}
+li:nth-child(3n){color: silver; background-color: red; width: 500px; padding: 5px;}
+li:nth-child(3n+3){color: silver; background-color: red; width: 500px; padding: 5px;}
+li:last-child{color: pink; background-color: brown; width: 500px; padding: 5px;}

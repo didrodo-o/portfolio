@@ -1,0 +1,14 @@
+﻿
+.box:nth-child(1){width: 100px; height: 100px; background-color: red; position: relative; left: 300px; top: 300px;/* left: 10px; top: 10px; z-index: 10; */}
+.box:nth-child(2){width: 100px; height: 100px; position: absolute;background-color: green; left: 50px; top: 50px; z-index: 5;}
+.box:nth-child(3){width: 100px; height: 100px; position: absolute;background-color: blue; left: 90px; top: 90px; }
+body>div{width: 400px; /* height: 100px;  */border: 3px solid black; position: relative;}
+
+
+
+
+
+
+
+
+

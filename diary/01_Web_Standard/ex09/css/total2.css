@@ -1,0 +1,53 @@
+﻿@media screen and (min-width:800px) {
+   body{margin-top: 80px;} 
+   a{font-size: 2em; display: block; position: relative; top: 50px;}
+   #mainNav li{width: 150px; height: 150px; padding: 10px; border-radius: 20px; background-color: #ffffff; background-repeat: no-repeat; background-position: center center; margin: 0px 8px 8px 0px; border: 5px solid #dbdbdb;}
+   li:nth-child(2){background-image: url(../images/sandal.png);}
+   li:nth-child(3){background-image: url(../images/neck.png);}
+   li:nth-child(4){background-image: url(../images/bag.png);}
+   li:nth-child(5){background-image: url(../images/top.png);}
+   li:nth-child(6){background-image: url(../images/dress.png);}
+   li:nth-child(7){background-image: url(../images/bottom.png);}
+   #wrapper{width: 755px; margin: 0 auto;}
+}
+
+@media screen and (min-width:321px) and (max-width:799px) {
+   body{margin-top: 40px;} 
+   a{font-size: 1.1em; display: block; position: relative; top: 25px;}
+   #mainNav li{width: 90px; height: 90px; padding: 6px; border-radius: 10px; background-color: #ffffff; background-repeat: no-repeat; background-position: center center; margin: 0px 6px 6px 0px; border: 3px solid #dbdbdb;}
+   li:nth-child(2){background-image: url(../images/sanda2.png);}
+   li:nth-child(3){background-image: url(../images/neck2.png);}
+   li:nth-child(4){background-image: url(../images/bag2.png);}
+   li:nth-child(5){background-image: url(../images/top2.png);}
+   li:nth-child(6){background-image: url(../images/dress2.png);}
+   li:nth-child(7){background-image: url(../images/bottom2.png);}
+   #wrapper{width: 350px; margin: 0 auto;}    
+}
+
+@media screen and (max-width:320px) {
+   body{margin-top: 40px;} 
+   a{font-size: 0.8em; display: block; position: relative; top: 15px;}
+   #mainNav li{width: 50px; height: 50px; padding: 8px; border-radius: 10px; background-color: #ffffff; background-repeat: no-repeat; background-position: center center; margin: 0px 7px 7px 0px; border: 2px solid #dbdbdb;}
+   li:nth-child(2){background-image: url(../images/sanda3.png);}
+   li:nth-child(3){background-image: url(../images/neck3.png);}
+   li:nth-child(4){background-image: url(../images/bag3.png);}
+   li:nth-child(5){background-image: url(../images/top3.png);}
+   li:nth-child(6){background-image: url(../images/dress3.png);}
+   li:nth-child(7){background-image: url(../images/bottom3.png);}
+   #wrapper{width: 240px; margin: 0 auto;}       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

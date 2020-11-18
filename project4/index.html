@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="Notepad++"/>
+	<meta name="Author" content="김세희"/>
+	<meta name="Keywords" content="김세희, Kim sehee, 포트폴리오, 김세희 포트폴리오, portfolio, Sehee's portfolio, 웹 디자인, 웹 포트폴리오, webdesign, cording"/>
+	<meta name="Description" content="김세희의 포트폴리오 페이지 입니다"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/jquery.bxslider.css"/>
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<!-- 마우스휠움직임 감지제이쿼리 -->
+	<script src="js/custom.js"></script>
+	<title>모여봐요 동물의 숲</title>
+	
+</head>
+<body>
+	<ul class="menu">
+		<li class="on m1"><a href="#"></a></li>
+		<li class="m2"><a href="#"></a></li>
+		<li class="m3"><a href="#"></a></li>
+		<li class="m4"><a href="#"></a></li>
+		<li class="m5"><a href="#"></a></li>
+	</ul>
+	<audio id="myAudio">
+		<source src="img/BGM.mp3" type='audio/mp3'>
+		<source src="img/BGM.wav" type='audio/wav'> 
+		Your user agent does not support the HTML5 Audio element.
+		</audio>
+	<img class="bgm" src="img/play.png" onclick="aud_play_pause()" alt="배경음악">
+	<script>
+		function aud_play_pause(){
+			var myAudio = document.getElementById("myAudio");
+			myAudio.volume = 0.2;
+			if(myAudio.paused){
+				myAudio.play();
+				$('.bgm').attr('src','img/pause.png');
+			}
+			else {
+				myAudio.pause();
+				$('.bgm').attr('src','img/play.png');
+			}
+	}
+	</script>
+	<div id="wrap">
+		<section>
+			<article class="s1">
+				<h1>모여봐요 동물의 숲</h1>
+				<a href="#"><img src="img/b_switch.jpg" alt="Switch 홈페이지로 가기"/></a>
+				<p class="p">2020.03.20</p>
+				<img src="img/tit.png" class="p1" alt="모여봐요 동물의 숲"/>
+				<img src="img/home_cloud.png" class="p2" alt="구름"/>
+				<img src="img/home_tree.png" class="p3" alt="나무"/>
+			</article>
+		</section>
+		<section>
+			<article class="s2">
+				<img src="img/human.png" class="h" alt="동물의 숲 캐릭터"/>
+				<img src="img/tree.png" class="t1" alt="나무"/>
+				<img src="img/tree.png" class="t2" alt="나무"/>
+				<div>
+					<div class="main">
+						<iframe class="v1" src="https://www.youtube.com/embed/uxlwfn8zjQI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe class="v2" src="https://www.youtube.com/embed/C463NTVkFFE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe class="v3"  src="https://www.youtube.com/embed/QZMaL6mp35Y" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<ul class="sub">
+						<li class="v1 on"><img src="img/thum_1.png" alt="동물의숲 유튜브 영상1"/></li>
+						<li class="v2"><img src="img/thum_2.png" alt="동물의숲 유튜브 영상2"/></li>
+						<li class="v3"><img src="img/thum_3.png" alt="동물의숲 유튜브 영상3"/></li>
+					</ul>
+				</div>
+			</article>
+		</section>
+		<section>
+			<article class="s3">
+				<div class="sl">
+					<div>
+						<ul class="slider">
+							<li><img src="img/slide1.jpg" alt="8인의 멀티플레이"/></li>
+							<li><img src="img/slide2.jpg" alt="동물의 숲 - 봄"/></li>
+							<li><img src="img/slide3.jpg" alt="동물의 숲 - 여름"/></li>
+							<li><img src="img/slide4.jpg" alt="동물의 숲 - 가을"/></li>
+							<li><img src="img/slide5.jpg" alt="동물의 숲 - 겨울"/></li>
+						</ul>
+					</div>
+				</div>
+				<div class="txt">
+					<p class="tit">무인도에서 새로운 생활을 시작해요!</p>
+					<p class="mt">이번 무대는 무인도. &lceil;Nook Inc.&rfloor;가 제공하는 &lceil;무인도 이주 패키지 플랜&rfloor;에 참가해서 섬 생활을 시작하게 됩니다.<br/>
+					해변에서 여유를 즐기거나 주변을 탐색하거나... 사람의 손이 닿지 않은 자연 그대로의 무인도 생활을 기대해 주세요.</p>
+				</div>
+			</article>
+		</section>
+		<section>
+			<article class="s4">
+				<div>
+					<img class="game" src="img/gamepack.png" alt="모여봐요 동물의 숲 게임팩"/>
+					<p>
+					<b>모여봐요 동물의 숲</b><br/>
+					<br/>
+					패키지 버전 / 다운로드 버전<br/>
+					<br/>
+					메이커 : 한국닌텐도<br/>
+					발매일 : 2020년 3월 20일 (금)<br/>
+					희망소비자가격 : 64,800원<br/>
+					이용등급 : 전체이용가<br/>
+					<span>&copy;2020 Nintendo</span>
+					</p>
+					<a href="#"><img class="banner1" src="img/banner1.png" alt="Nintendo Switch 모여봐요 동물의 숲 에디션,휴대용 케이스 2020.03.20(금) 발매"/></a>
+					<a href="#"><img class="banner2" src="img/banner2.png" alt="모여봐요 동물의 숲 구매처별 예약 특전 안내"/></a>
+				</div>
+			</article>
+		</section>
+		<section>
+			<article class="s5">
+				<p>
+					<b>하나의 섬에 몇 명까지 유저를 등록할 수 있나요?</b>
+					<span>Nintendo Switch 소프트웨어 『모여봐요 동물의 숲』은 1대의 Nintendo Switch와 1개의 소프트웨어로, 본체에 등록되어 있는 최대 8명의 유저가 한 개의 섬을 공유하여 플레이할 수 있습니다.</span>
+					<br/>
+					<b>몇 명까지 함께 플레이할 수 있나요?</b>
+					<span>최대 4명까지 같은 섬의 주민이 되어 플레이할 수 있습니다. (플레이어 1명당 컨트롤러 1개가 필요합니다.)<br/>
+						로컬 통신/온라인 플레이로는 본인 혹은 친구의 섬에 모여서 최대 8명까지 함께 플레이할 수 있습니다.<br/>
+						<br/>
+						※온라인 플레이를 하려면 Nintendo Switch Online(유료) 가입이 필요합니다.<br/>
+						※Nintendo Switch Online은 18세 이상의 닌텐도 어카운트로만 이용할 수 있습니다.</span>
+					<br/>
+					<b>여러 개의 섬을 만들 수 있나요?</b>
+					<span>본 소프트웨어를 여러 개 사용해도 만들 수 있는 섬은 본체 1대당 1개입니다. 다른 섬에서 플레이하려면 별도의 본체가 필요합니다.<br/>
+						섬의 저장 데이터는 Nintendo Switch 본체에 저장되기 때문에 본체 1대에 패키지 버전과 다운로드 버전을 따로 사용하더라도 섬(저장 데이터)은 1개입니다.</span>
+					<br/>
+					<b>2대째 본체를 구입한 경우, 다른 본체에 저장 데이터(섬의 데이터)를 이사할 수 있나요?</b>
+					<span>본 소프트웨어의 저장 데이터는 &lceil;유저의 이사&rfloor; 및 &lceil;저장 데이터의 이사&rfloor;에 대응하지 않기 때문에, 다른 본체로 저장 데이터를 이사할 수 없습니다.</span>
+					<br/>
+					<b>Nintendo Switch Online의 &lceil;저장 데이터 맡기기&rfloor;에 대응하나요?</b>
+					<span>본 소프트웨어는 Nintendo Switch Online의 &lceil;저장 데이터 맡기기&rfloor;에 대응하지 않습니다.</span>
+					<br/>
+					<b>저장 데이터는 백업할 수 없나요?</b>
+					<span>Nintendo Switch 본체의 고장∙분실∙도난에 대비하여 본 소프트웨어의 독자적인 방식으로 저장 데이터를 백업하는 기능을 검토 중입니다. 단, 본 기능은 Nintendo Switch Online 가입자에 한해 이용할 수 있으며, 대응 시기는 미정입니다. 시기가 정해지는 대로 안내해 드리겠습니다.</span>
+					<br/>
+					<b>이 소프트웨어는 Nintendo Switch Lite로 플레이할 수 있나요?</b>
+					<span>네, Nintendo Switch Lite로 플레이할 수 있습니다.<br/>
+						단, 같은 섬의 주민끼리 Nintendo Switch Lite로 동시 플레이(파티 모드)를 할 경우, 인원수만큼의 Joy-Con이나 Nintendo Switch Pro 컨트롤러를 접속해야 합니다.</span>
+				</p>
+			</article>
+		</section>
+	</div>
+</body>
+</html>

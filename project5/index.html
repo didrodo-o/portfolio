@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="Notepad++"/>
+	<meta name="Author" content="김세희"/>
+	<meta name="Keywords" content="김세희, Kim sehee, 포트폴리오, 김세희 포트폴리오, portfolio, Sehee's portfolio, 웹 디자인, 웹 포트폴리오, webdesign, cording"/>
+	<meta name="Description" content="김세희의 포트폴리오 페이지 입니다"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<title>KANU</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/style1.css"/>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/html5div.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/jquery.easing.1.3.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<figure class="vid">
+		<video loop="loop" autoplay="autoplay" >
+			<source src="img/kanu.mp4" type="video/mp4"/>
+			<source src="img/kanu.webm" type="video/webm"/>
+			Your browser does not support the video tag.	
+		</video>
+	</figure>
+	<div id="nav">
+		<div>
+			<h1><img src="img/logo.png" alt="KANU"/></h1>
+			<ul>
+				<li>
+					<h2><a href="#">ABOUT KANU</a></h2>
+				</li>
+				<li>
+					<h2><a href="#">PRODUCT</a></h2>
+					<ul>
+						<li><a href="#">KANU</a></li>
+						<li><a href="#">KANU LATTE</a></li>
+						<li><a href="#">KANU DECAFFEINE</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href="#">EVENT</a></h2>
+					<ul>
+						<li><a href="#">진행중인 이벤트</a></li>
+						<li><a href="#">지난 이벤트</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2><a href="#">CUSTOMER</a></h2>
+					<ul>
+						<li><a href="#">커뮤니티</a></li>
+						<li><a href="#">고객문의</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="sns">
+		<ul>
+			<li class="first"><a href="#"><img src="img/sns_1.png" alt="카누 페이스북"/></a></li>
+			<li><a href="#"><img src="img/sns_2.png" alt="카누 인스타그램"/></a></li>
+			<li><a href="#"><img src="img/sns_3.png" alt="카누 유튜브"/></a></li>
+		</ul>
+	</div>
+	<div id="banner"><img src="img/banner.png" alt="세상이 기다렸던 스윗한 콜라보 티라미수라떼"/></div>
+	<script>
+		$(document).ready(function() {
+			$('video').mediaelementplayer({
+				alwaysShowControls: false,
+				videoVolume: 'horizontal',
+				//features: ['playpause','progress','volume','fullscreen']
+				features: ['','','','']
+			});
+		});
+	</script>
+</body>
+</html>

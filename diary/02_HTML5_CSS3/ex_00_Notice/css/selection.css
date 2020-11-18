@@ -1,0 +1,5 @@
+﻿.select::-o-selection{background-color: #cccccc; color: #ff0000;}
+.select::-ms-selection{background-color: #cccccc; color: #ff0000;}
+.select::-moz-selection{background-color: #cccccc; color: #ff0000;}
+.select::-webkit-selection{background-color: #cccccc; color: #ff0000;}
+.select::selection{background-color: #ffff00; color: #ff0000;}

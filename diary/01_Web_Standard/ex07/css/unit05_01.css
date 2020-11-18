@@ -1,0 +1,11 @@
+﻿body,p{margin: 0; padding: 0;}
+body{background: url(../images/bg_gray.png) no-repeat #cccccc;}
+div{background: url(../images/circle.png) no-repeat; width: 530px; height: 424px; opacity: 0.8; padding-top: 150px; padding-left: 20px; margin: 0 auto;}
+
+.textBox{background-color: hsla(0,0%,100%,0.6); padding: 20px; width: 25%; margin: 0 auto; border-radius: 20px;}
+.textBox{background-color: rgba(0,255,0,1); padding: 20px; width: 25%; margin: 0 auto; border-radius: 20px;}
+.textBox{background-color: #00ff00; opacity: 0.6; padding: 20px; width: 25%; margin: 0 auto; border-radius: 20px;}
+
+/* 오퍼시티는 상속 rgba는 상속X*/
+
+.people{padding-top: 130px; color: rgba(255,255,255,0.7); font: 3em 'Arial Black';

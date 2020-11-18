@@ -1,0 +1,4 @@
+﻿@charset="UTF-8";
+a.mButton{display:block; width: 153px; height: 75px; background: url(../images/02.gif) no-repeat;}
+a:hover.mButton{background-position: 0 -75px;}
+a.mButton span{display:none;}

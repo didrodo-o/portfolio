@@ -1,0 +1,10 @@
+﻿body{margin: 0px;}
+body{
+	background-color: silver;
+	background-image: url(../images/bg0.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+}
+div{background: url(../images/bg1.png) repeat-y fixed top left; padding: 20px; width: 80%;}
+	p{background: #000000 url(../images/dot.png) repeat-x bottom left; font-family: 'Times New Roman', sans-serif; font-size: 1.2em; color: #ffffff; margin-left: 70px;}

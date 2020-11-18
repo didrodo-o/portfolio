@@ -1,0 +1,45 @@
+﻿jQuery(document).ready(function(){
+	$('.list2').hide();
+	$('.list3').hide();
+	$('.web1').css('background','#ffaaaa');
+	$('.web2').css('background','#ffcccc');
+	$('.web3').css('background','#ffcccc');
+	$('.web2').css('cursor','pointer');
+	$('.web3').css('cursor','pointer');
+	
+	$('.web1').click(function(){
+		$('.list2').hide();
+		$('.list3').hide();
+		$('.list1').show();
+		$('.web1').css('background','#ffaaaa');
+		$('.web2').css('background','#ffcccc');
+		$('.web3').css('background','#ffcccc');
+		$('.web3').css('cursor','pointer');		
+		$('.web2').css('cursor','pointer');		
+		$('.web1').css('cursor','default');		
+	});
+
+	$('.web2').click(function(){
+		$('.list1').hide();
+		$('.list3').hide();
+		$('.list2').show();
+		$('.web2').css('background','#ffaaaa');
+		$('.web1').css('background','#ffcccc');
+		$('.web3').css('background','#ffcccc');
+		$('.web1').css('cursor','pointer');		
+		$('.web3').css('cursor','pointer');		
+		$('.web2').css('cursor','default');		
+	});
+
+	$('.web3').click(function(){
+		$('.list1').hide();
+		$('.list2').hide();
+		$('.list3').show();
+		$('.web3').css('background','#ffaaaa');
+		$('.web1').css('background','#ffcccc');
+		$('.web2').css('background','#ffcccc');
+		$('.web1').css('cursor','pointer');		
+		$('.web2').css('cursor','pointer');		
+		$('.web3').css('cursor','default');		
+	});
+});

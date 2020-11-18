@@ -1,0 +1,7 @@
+﻿#titlePage{position: absolute; top: -10px; left: 0; /* z-index: 10000; */}
+#book1{background: url(../images/bg_sm01.png) no-repeat; position: absolute; top:     50%; left:50%; margin-left: -171px; margin-top: -75px;}
+#book2{background: url(../images/bg_sm02.png) no-repeat; position: absolute; top: 50%; right:50%;margin-right: -171px; margin-top: -75px;}
+#book3{background: url(../images/bg_sm03.png) no-repeat; position: absolute; bottom: 50%; right:50%; margin-right: -171px; margin-bottom: -75px;}
+#book4{background: url(../images/bg_sm04.png) no-repeat; position: absolute; bottom: 50%; left:50%; margin-left: -171px; margin-bottom: -75px;}
+
+section{position: relative; width: 500px; height: 500px; top: 200px;}

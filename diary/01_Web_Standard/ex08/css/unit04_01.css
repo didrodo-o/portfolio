@@ -1,0 +1,56 @@
+﻿body { 
+	font:12px "맑은 고딕",돋움,arial; 
+	margin:0px;
+	}
+ul, li, h1, dl, dt, dd {
+	margin:0px;
+	padding:0px;
+	}
+h1 { 
+	font-size:2em; 
+	color:#fff; 
+	text-align:center; 
+	padding:10px 15px; 
+	background-color:#666; 
+	width:100%;
+	}
+h2 {
+	font-size:1.5em; 
+	color:#fff; 
+	text-align:center; 
+	padding:10px 15px; 
+	background-color:#f39; 
+	width:880px;
+	margin:20px auto;
+	}
+h3 {
+	font-size:1.2em; 
+	color:#060;
+	}
+p {
+	line-height:150%;
+	margin-bottom:30px;
+	}
+#bookImg {
+	margin:30px 80px;
+	text-align:center;
+	}
+/* img{display: block; margin: 0 auto;} -이렇게 하면 안됨! */
+/* Layout */
+#bookPart{width:850px; margin: 0 auto; text-align: justify; margin-bottom: 50px;
+	-o-column-count: 3;
+	-ms-column-count: 3;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-o-column-rule: 1px dashed #666666;
+	-moz-column-rule: 1px dashed #666666;
+	-webkit-column-rule: 1px dashed #666666;
+	-ms-column-rule: 1px dashed #666666;
+	column-rule: 1px dashed #666666;
+	-o-column-gap: 40px;
+	-ms-column-gap: 40px;
+	-moz-column-gap: 40px;
+	-webkit-column-gap: 40px;
+	column-gap: 40px;
+}

@@ -1,0 +1,19 @@
+﻿*{margin:0; padding: 0;}
+img{border: 0;}
+body{background: url(../images/grid_back_02.gif)}
+ul li{line-height: 0;}
+
+#wrap{height: 560px; width: 840px;}
+#menu{height: 210px; width: 140px; background-color: #ffffff;}
+#title{height: 140px; width: 210px;}
+
+.box3_12{height: 210px; width: 840px;}
+.box3_1{height: 210px; width: 70px;}
+.box1_1{height: 70px; width: 70px;}
+.box1_3{height: 70px; width: 210px;}
+
+.color1{background-color: #ff9900;}
+.color2{background-color: #ffcc00;}
+.color3{background-color: #ffff99;}
+
+.fl{float: left;}

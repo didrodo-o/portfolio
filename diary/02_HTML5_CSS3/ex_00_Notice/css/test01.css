@@ -1,0 +1,30 @@
+﻿*{margin: 0; padding: 0;}
+html{overflow-y:scroll;}
+img{border: 0;}
+ul, li{list-style: none;}
+#header{width: 1000px; height: 500px; background: #ffff66; margin: 0 auto;}
+.box1{width: 100px; height: 100px; background: #ff0000; display: none;}
+.box2{width: 100px; height: 100px; background: #00ff00; visibility: hidden;}
+.box3{width: 100px; height: 100px; background: #0000ff; opacity: 0.2;}
+.box4{width: 100px; height: 100px; background: #ff00ff;}
+
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: left;}
+.cr{clear: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

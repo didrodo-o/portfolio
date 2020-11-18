@@ -1,0 +1,4 @@
+﻿@charset="UTF-8";
+div{overflow: hidden; width: 650px; height: 300px;
+	transition-duration: 1s; background-color: skyblue;}
+input[type=checkbox]:checked+div{height: 0px;}

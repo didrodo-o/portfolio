@@ -1,0 +1,213 @@
+﻿@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+body, div, h1, h2, h3, h4, ul, li, dl, dt, dd, form, p, span, img, a, select, input{margin: 0; padding: 0; border: 0;}
+html{overflow-y: scroll;}
+h1{display:none;}
+ul, li{list-style: none;}
+a{text-decoration: none; color: #555555;}
+a:hover{text-decoration: none; color: #004280;}
+body{font-family:'NanumSquare', 'Malgun Gothic', '맑은 고딕', Dotum, '돋움체', Arial, sans-serif; font-size: 14px; color: #555555;}
+
+.rbn{border-right: 0!important;}
+.cf:after{content:''; display: block; clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: left;}
+
+header{position: fixed; z-index: 999999; background-color: #ffffff; width: 100%;}
+section{position: relative; top: 165px; width: 100%;}
+
+/* gnb */
+#gnb{background: rgba(255,255,255,1); height: 50px; width: 1600px; margin: 0 auto; }
+#gnb .left li{float: left; display: block; padding: 0px 25px; margin-top: 17px; border-right: 1px solid #bbbbbb;}
+#gnb .left li a.on{font-weight: bold; color: #004280;}
+#gnb .right li{float: left; display: block; padding: 0px 25px; margin-top: 17px; border-right: 1px solid #bbbbbb;}
+#gnb .sns li{float: left; display: block; padding: 0px 5px; margin-top: 14px;}
+#gnb form select{padding: 4px 12px; margin: 12.5px; border: 1px solid #555555;}
+
+/* lnb */
+#lnb{height: 81px;}
+.dept1{width: 100%; height: 80px; background-color: #ffffff; border-bottom: 2px solid #004280; position: fixed; z-index: 999999;}
+.dept1>.menu_p{width: 1600px; margin: 0 auto;}
+.dept1>ul>li{float: left; width: 16.5%; text-align: center; line-height: 80px;}
+.dept1>ul>li>a{width: 100%; line-height: 80px; display: block;}
+.dept1>ul>li.logo{padding: 10px 0; line-height: 0;}
+
+.dept2{width: 100%; height: 200px; background-color: #ffffff; position: relative; top: 70px; border-bottom: 2px solid #004280; z-index:9999999; display: none;}
+.dept2>.sub_wrap{width: 1600px; margin: 0 auto;}
+.dept2>.sub_wrap>ul{width: 16.666%; float: left; margin-top: -70px;}
+.dept2>.sub_wrap>ul>li{text-align: center;}
+.dept2>.sub_wrap>ul>li>a{display: block; line-height: 35px; height: 35px; width: 50%; margin: 0 25%; box-sizing: border-box; margin-top: 2px;}
+.dept2>.sub_wrap>ul>li>a:hover {border-bottom: 2px solid #004280; font-weight: bold;}
+
+#lnb_mt,#menu_mt{display: none;}
+
+/* 슬라이드 */
+#main_slider a img{margin: 0 auto;}
+.slider .t, .slider .m{display: none;}
+
+/* 퀵버튼 */
+#quicks{width: 100%; height: 180px;}
+#quicks ul{width: 1000px; margin: 0 auto;}
+#quicks ul li{float: left;padding: 0 25px;}
+
+/* 배너 */
+#banners{width: 1600px; height: 450px; margin: 0 auto;}
+#banners div{float: left;}
+#banners .left{width: 30%; height: 450px; background: url(../img/banner1.jpg) no-repeat top center; text-align: center;}
+#banners .center{width: 30%; height: 450px; background: url(../img/banner2.jpg) no-repeat top right; }
+#banners .right{width: 40%; height: 450px;}
+#banners .right .board{width: 100%; background: #efefef; height: 250px;}
+#banners .right .brochure{width: 100%; background: #cac3af url(../img/brochure.png) right no-repeat; height: 200px;}
+
+#banners .left p.first{ margin: 80px 0 5px; font-size: 32px; line-height: 48px;}
+#banners .left p.second{margin-bottom:55px; font-size: 16px; line-height: 48px;}
+#banners .left p b{font-size: 36px; color: #004280;}
+#banners .left a{ padding: 6px 24px; border: 1px solid #004280;color: #004280;  font-size: 18px;}
+#banners .left a:hover{background: #ffffff;}
+
+#banners .center{color: #ffffff;}
+#banners .center p.tit{font-size: 32px; font-weight: bold; margin: 50px 50px 25px; padding: 30px 0; border-bottom: 2px solid #ffffff;}
+#banners .center p{font-size: 18px; margin-left: 50px; }
+#banners .center form{text-align: center; margin: 55px auto;padding: 15px; border: 4px solid #ffffff; width: 60%;}
+#banners .center input{ font-size: 18px; background: rgba(0,0,0,0); color: #ffffff;}
+#banners .center form img{margin-bottom: -5px;}
+
+#banners .right .board{position: relative;}
+#banners .right .board h3{font-size: 28px; font-weight: bold; margin: 25px 50px 15px; padding: 10px 0 10px; border-bottom: 2px solid #555555;}
+#banners .right .board a{display: block; margin: 10px 55px;}
+#banners .right .board ul li.tit{float: left;}
+#banners .right .board ul li{float: right;}
+#banners .right .board a.more{position: absolute; top: 30px; right: 0;}
+#banners .right .brochure a{display: block;font-size: 28px; font-weight: bold; margin: 25px 50px 15px; padding: 10px 0 10px; color: #ffffff;}
+#banners .right .brochure a b{font-size: 50px;}
+
+
+/* 푸터 */
+footer{position: relative; top: 200px; width: 100%; height: 200px; background-color: #333333; color: #999999;}
+footer div.util{width: 700px; margin: 0px auto;}
+footer div ul li{float: left; padding:0 5px; border-right: 1px solid #555555; margin: 30px auto 20px;}
+footer div.ccmwrap{width: 1200px; margin: 0 auto; position: relative;}
+
+footer img.ccm{width: 150px; position: absolute; top: 35px; right: 240px;}
+footer a{color: #999999;}
+footer span{padding:0 5px; border-right: 1px solid #555555; margin: 0 auto;}
+footer p{margin: 0 auto; width: 800px;}
+
+
+
+
+
+@media screen and (max-width:1599px) {
+	.dept2>.sub_wrap{width: 100%;}
+    #banners{width: 100%;}
+	#gnb{width: 100%;}
+	.dept1>.menu_p{width: 100%;}
+}
+@media screen and (max-width:1279px) {
+	#banners .left p.first{font-size: 18px; line-height: 40px;}
+	#banners .left p.second{font-size: 14px; line-height: 45px;}
+	#banners .left p b{font-size: 32px;}
+
+	#banners .center p{font-size: 16px; margin-left: 50px; }
+	#banners .center input{width:150px;}
+	
+	#banners .right .board ul li.tit{width: 190px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+	
+	footer div.ccmwrap{width: 740px;}
+	footer p{ width: 740px;}
+	footer img.ccm{width: 150px; position: absolute; top: 35px; right: 20px;}
+}
+
+@media screen and (max-width:1023px){
+	#banners{height: 400px;}
+	#banners .left{width: 33.333%; height: 400px;}
+	#banners .left p.first{margin-bottom: 40px;}
+	#banners .left .second{display: none;}
+	#banners .center{width: 33.333%; height: 400px;}
+	#banners .center p{display: none;}
+	#banners .center p.tit{display: block;}
+	#banners .center input{width: 120px;}
+	#banners .right{width: 33.333%; height: 400px;}
+	#banners .right .board{display: none;}
+	#banners .right .brochure{height: 400px; }
+	#banners .right .brochure a{white-space: pre;letter-spacing: -2px;}
+	.slider .t{display: block;}
+	.slider .p, .slider .m{display: none;}
+	#quicks ul{width: 770px; margin: 0 auto;}
+	#quicks ul li{padding: 0 2px;}
+	#gnb, #lnb{display: none;}
+	section{top: 120px;}
+	#lnb_mt{display: block; width: 100%; height: 85px; background: #ffffff; border-bottom: 2px solid #004280; position: absolute; }
+	#lnb_mt a{position: absolute; top: 12px; left: 50%; margin-left: -70px;}
+	#lnb_mt>img{position: absolute; top: 19px; right: 22px;}
+	
+	header{background: rgba(0,0,0,0);}
+	#menu_mt{display: none; width: 100%; height: 100%; position: relative; z-index: 9999999; background-color: rgba(0,0,0,.6);}
+	#menu_mt>div{position: absolute; right: -90%; width: 70%; height: 100%; margin-left: 30%; background-color: #004280;}
+	#menu_mt a{color: #ffffff;}
+	#menu_mt>img{position: absolute; right: -12%; top: 15px;}
+	
+	
+	#menu_mt .top {border-bottom: 1px solid #ffffff; padding: 10px 32px; box-sizing: border-box;}
+	#menu_mt .top a{color: #dfdfdf; padding: 0 8px; border-right: 1px solid #888888;}
+	#menu_mt .top a.right{float: right;}
+	#menu_mt p.lang a,#menu_mt p.site a{padding: 0 15px;border-right: 1px solid #888888;}
+	#menu_mt p.lang, #menu_mt p.site{ margin: 20px 0 7px; text-align: center;}	
+	#menu_mt p.site{margin-top: 0;}	
+	
+	#menu_mt>div>ul>li{ line-height: 40px; border-bottom: 1px solid #005bae;}
+	#menu_mt>div>ul>li.last{border-bottom:1px solid #ffffff;}
+	#menu_mt>div>ul>li>a{display:block; border-bottom: 1px solid #2e437c; padding-left: 40px; line-height: 50px; font-size:18px; font-weight:bold;}
+	#menu_mt>div>ul>li>a>img{float: right; margin: 10px 40px;}
+	#menu_mt>div>ul>li>ul a{display:block; border-bottom: 1px solid #004280;padding-left: 50px; line-height: 32px; }
+	#menu_mt>div>ul>li>ul{background: #192d65; display: none;}
+}
+
+@media screen and (max-width:779px){
+	#quicks {height: 140px;}
+	#quicks img{width:100%;}
+	#quicks ul{width: 545px;}
+	#quicks ul li{width:19%;}
+	
+	#banners{height: 700px;}
+	#banners .left{width: 100%; height: 300px;}
+	#banners .left p.first{ margin: 50px 0 5px 5px; font-size: 32px; line-height: 48px;}
+	#banners .left p.second{display: block; font-size: 16px; margin-bottom: 20px;}
+	#banners .center{width: 50%;}
+	#banners .center p{display: block;}
+	#banners .right{width: 50%;}
+	
+	footer div.util{width: 600px; font-size: 13px;}
+	
+	footer div.ccmwrap{width: 590px;}
+	footer p{ width: 590px;  font-size: 13px;}
+	footer img.ccm{width: 150px; position: absolute; top: 50px; right: 0px;}
+}
+
+@media screen and (max-width:639px) {
+	.slider .m{display: block;}
+	.slider .p, .slider .t{display: none;}
+	
+	#menu_mt .right{display: none;}
+	
+	#quicks{height: 180px;}
+	#quicks ul{width: 430px; margin: 0 auto;}
+	#quicks ul li{width: 32%;}
+	#quicks ul li.n{display:none;}
+	
+	#banners{height: 1000px;}
+	#banners .left{width: 100%; height: 400px;}
+	#banners .left p.first{ margin-top: 80px;}
+	#banners .left p.second{margin-bottom: 40px;}
+	#banners .center{width: 100%; height: 400px;}
+	#banners .right{width: 100%; height: 200px;}
+	
+	footer{position: relative; top: 350px;}
+	footer div.util{width: 370px; font-size: 12px;}
+	footer div ul li{margin-bottom: 0px; margin-top: 10px; padding-bottom: 0;}
+	
+	footer div.ccmwrap{width: 340px;}
+	footer p{width: 340px; font-size: 12px;}
+	footer img.ccm{width: 100px; top: 45px; right: 10px;}
+}

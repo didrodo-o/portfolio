@@ -1,0 +1,30 @@
+﻿*{margin: 0; padding: 0;}
+html{overflow-y:scroll;}
+img{border: 0;}
+ul, li{list-style: none;}
+#header{width: 1000px; height: 500px; background: #ffff66; margin: 0 auto;}
+.box1{background: #ff0000; padding: 10px 50px;}
+.box2{background: #00ff00; }
+.box3{background: #0000ff; }
+.box4{background: #ff00ff;}
+
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: left;}
+.cr{clear: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

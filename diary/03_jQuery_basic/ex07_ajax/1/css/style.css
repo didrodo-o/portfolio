@@ -1,0 +1,4 @@
+body{padding: 10px 30px; color: #555555; font-family: Arial, sasn-serif;}
+table{width: 400px; border-spacing: 1pxn; font-size: .85em; background: #999999;}
+td,th{font-weight: normal; border: 2px solid #ffffff; background: #ffffff; padding: .25em .75em; text-align: left;}
+thead th{background: #8dbdd8; color: #ffffff;}

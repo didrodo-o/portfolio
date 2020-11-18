@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* 헤더 영역 로고 */
+#header h1{position: absolute; left: 50%; top: 36px; margin-left: -57px;}
+
+/* GNB 영역 */
+#gnb_warp{width: 1600px; height: 47px; background: #555555; position: absolute; top: 134px; left: 0;}
+#gnb{width: 1101px; height: 47px; margin: 0 auto;}
+#gnb >li{float: left; text-align: center; width: 80px; padding: 16px; border-right: 1px solid #aaaaaa;}
+#gnb li.fir{border-left: 1px solid #eee;}
+#gnb > li >a{font-size: 13px; color: #ffffff; font-weight: bold;}
+#gnb ul{position: relative; background-color: #ffffff; width: 112px; top: 16px; left: -16px; line-height: 36px; text-align: center; display: none;}
+
+#gnb ul li{background-color: #f7f5f8; border: none; border-bottom: 1px solid #aaaaaa;}
+#gnb > li:hover{background: #222222;}
+#gnb > li:hover ul{display: block;}
+#gnb > li>ul>li:hover {background-color: #7b4ea7;}
+#gnb > li>ul>li:hover a{color: #ffffff;}
+
+#total_btn{position: absolute; bottom: 0px; right: 275px; height: 47px; width: 39px; border-right: 1px solid #aaaaaa;}
+#total_btn img{margin-top: 19px;}
+
+
+/* 코딩 안 해도 되는 영역 */
+/* 전체 메뉴 영역 */
+#total_menu{width: 1075px; height: 187px; background: #ededed; position: absolute; top: 181px; left: 250px; display: none;}
+#total_menu dl{float: left; margin: 15px  0px;}
+#total_menu dt{font-size: 0px;}
+#total_menu dd{border-right: 1px solid #cccccc; width: 112px; height: 154px;}
+#total_menu li{line-height: 31px; text-align: center;}
+#total_close{position: absolute; bottom: 12px; right: 34px;}
+
+
+
+
+
+
+
+
+

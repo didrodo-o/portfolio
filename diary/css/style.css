@@ -1,0 +1,63 @@
+﻿*{margin:0; padding:0;}
+img{border: 0;}
+html{overflow-y: scroll;}
+ul, li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: 'Nanum Gothic', '맑은 고딕', '돋움', Arial,sans-serif; background: #f8f8f8; font-size: 12px; line-height: 160%; color:#777777;}
+.fl{float: left;}
+.fr{float: right;}
+.cf:after{content: ''; display: block; clear: both;}
+.cl{clear: left;}
+.rbn{border-right: 0;}
+
+a{color:#777777;}
+a:hover{color:#ffffff; background: #ffaaaa; font-weight: bold; text-decoration: underline;}
+h3{color: #ffaaaa;}
+
+#wrap{width: 1400px; margin: 0 auto;}
+#header{width: 1200px; height: 200px; margin: 0 auto; position: relative;}
+	#header #title{width:200px; margin: 0 auto; position: absolute; top: 38%; left: 50%; margin-left:-100px; text-align: center;}
+	#header #title h1{font-size: 60px; font-family: 'Baloo Bhai', cursive; color: #ffffff; text-shadow: 0 0 3px #888888;}
+	#header #lnb{width: 452px; height: 40px; position: absolute; bottom: 0; left: 50%; margin-left: -221px; line-height: 40px; background:#ffcccc; border-radius: 20px 20px 0 0; border: 1px solid #ffbcbc; overflow:hidden}
+	#header #lnb li{float: left; width: 150px; text-align:center;}
+	#header #lnb li h2{font-size: 16px; color: white;}
+	#header #lnb .web1, #header #lnb .web2{border-right: 1px solid #fcfcfc;}
+#imp{padding: 20px; position: fixed; right: 40px; top: 30%; background: #ffffff; border: 1px solid #efefef; border-radius: 20px; box-shadow: 3px 3px 5px #dddddd;}
+	#imp .impcss{margin-bottom: 20px;}
+	#imp .impcss ul li{font-weight: bold; color: #999999;}
+	#imp .site .siteLink{list-style: disc; color: #ffaaaa; text-indent: 20px;}
+	#imp h3{font-size: 1.5em; padding-bottom: 5px; border-bottom: 1px dashed #ffaaaa; margin-bottom: 10px;}
+#section{width: 1150px; margin: 0 auto; margin-bottom: 20px; background-color: #ffffff; border-radius: 30px; border: 1px solid #efefef; box-shadow: 0 5px 5px #bbbbbb;}
+	#section h3{display: none;}
+	#section .tab_list1, #section .tab_list2, #section .tab_list3{width: 1050px; margin: 40px auto;}
+	#section ul .list1, #section ul .list2, #section ul .list3{width: 330px; padding: 9px;height: 200px; border-right: 1px dashed #dddddd;}
+	#section ul .rbn{border-right: 0;}
+	#section .tab_list1 .list1 span, #section .tab_list2 .list2 span, #section .tab_list3 .list3 span{display: block; font-size: 1.5em; padding-bottom: 7px; padding-top: 7px; border-bottom: 1px dashed #ffaaaa; border-top: 1px dashed #ffaaaa; margin-bottom: 10px; background: #f8f8f8; text-indent: 15px; color: #ffaaaa; font-weight: bold;}
+	#section .list1 li, #section .list2 li, #section .list3 li{margin-left: 15px; list-style: circle; color: #ffaaaa; list-style-position: inside;}
+	#section ul .list1 ul, #section ul .list2 ul, #section ul .list3 ul{height: 160px; overflow: auto;}
+	#section .list1 .lsn, #section .list2 .lsn, #section .list3 .lsn{list-style: none;}
+	#section .list3h span{width: 1000px; border-top: 1px dashed #999999; border-bottom: 1px dashed #999999; text-align: center; font-weight: bold; font-size: 24px; display: block; background: #fcfcfc; padding: 15px 0; color: #ff9999;}
+	#section li.hl{height: 120px;}
+#footer{width: 1200px; height: 100px; margin: 0 auto; text-align: center;}
+
+
+
+::-webkit-scrollbar{width: 8px;}
+::-webkit-scrollbar-track {background-color:#ffffff;}
+::-webkit-scrollbar-thumb {background-color:#eeeeee;  border-radius: 10px;}
+::-webkit-scrollbar-thumb:hover {border: 1px solid #ffaaaa;}
+html{scrollbar-arrow-color:#ffaaaa;
+ scrollbar-face-color:#ffcacd;
+ scrollbar-shadow-color:#ffffff;
+scrollbar-track-color:#f8f8f8;}
+
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+  src: url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+       url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+       url(http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');

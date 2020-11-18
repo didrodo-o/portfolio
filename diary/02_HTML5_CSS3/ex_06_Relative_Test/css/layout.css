@@ -1,0 +1,25 @@
+﻿*{padding: 0; margin: 0;}
+ul, li{list-style: none;}
+body{color: white; font-size: 1.5em; font-weight: bold;}
+.cf:after{clear: both; display: block; content:'';}
+
+.oneInner{background: yellow; height: 50px; position: relative; left: 0px; top: 0px;}
+.oneDepth{width: 1400px; background: blue; height: 50px; margin: 0 auto;}
+.oneDepth > li {float: left; padding: 5px 20px;}
+.oneDepth > li > a{display: block; padding: 5px 20px; float: left; color: white; }
+.oneDepth > li:hover .twoInner{display: block;}
+
+.twoInner{width: 100%; background: skyblue; height: 500px; position: absolute; top: 50px; left: 0px; display: none; float: left;}
+.twoDepth{width: 1400px; background: #000066; height: 500px; margin: 0 auto;}
+.twoDepth > ul{float: left;}
+.twoDepth > li{color: white;}
+
+
+
+
+
+
+
+
+
+

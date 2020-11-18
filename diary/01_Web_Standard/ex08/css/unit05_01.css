@@ -1,0 +1,8 @@
+﻿#book1{background: url(../images/snow_book1.png) no-repeat; width: 300px; height: 193px;
+	transform: rotate(25deg);
+	transform-origin: 20% 40%; /* 기준점은 왼쪽 위0% 0% 오른쪽 아래 100% 100%*/
+}
+#book2{background: url(../images/snow_book2.png) no-repeat; width: 269px; height: 213px;
+	transform: rotate(-15deg);
+	transform-origin: 50% 50%;
+}

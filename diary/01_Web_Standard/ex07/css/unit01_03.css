@@ -1,0 +1,9 @@
+﻿body{font: 1.2em '맑은 고딕',sans-serif;}
+h1{direction: rtl;}
+/* 오른쪽정렬 */
+
+.nowrapP{white-space: nowrap;}
+/* 자동줄바꿈을 없앰 */
+
+.preP{white-space: pre;}
+/* 공란을 그대로 보여줌 */

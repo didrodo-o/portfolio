@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>04_ajax_json</title>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script>
+		$(function(){
+			$.ajax({
+				url:'data/data.json',
+				type:'get',
+				dataType:'json',
+				//데이터 로딩을 기다림 / 동기식 = 메소드가 함수를 처리할 대 해당 결과를 기다리는 방식
+				//대표적인 예로 무전기 또는 야후 날씨 데이터 처리 등
+				async:false,
+				//데이터 로딩을 안기다림 / 비동기식 메소드가 함수를 처리할 때 해당 결과를 기다리지 않는 방식
+				//대표적인 예로 채팅
+				//async:true,
+				error:function(){
+					//alert('데이터 전송 실패');
+				},
+				success:function(){
+					//alert('데이터 전송 성공');
+					$('body').append('<div>데이터 전송 완료</div>');
+				}
+			});
+			
+			$('body').append('<div>동기식 또는 비동기식 전송 완료</div>');
+		});
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

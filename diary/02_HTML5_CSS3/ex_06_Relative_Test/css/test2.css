@@ -1,0 +1,13 @@
+﻿.header{width: 700px; height: 400px; background: #ffff00; position: relative; margin: 0 auto;}
+#box1{float: left; background: #ff0000; padding: 10px 20px;}
+#box2{float: left; background: #00ff00;}
+#box3{float: left; background: #ff00ff;}
+
+/* relative를 이용했을 경우 패딩 값으로 크기 조정 */
+
+
+
+
+
+
+

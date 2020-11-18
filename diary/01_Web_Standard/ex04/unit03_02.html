@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>예약 문의</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<h1>예약 문의</h1>
+	<form action="#" method="post">
+		<p>
+			작성자
+			<input name="userName" id="userName" type="text" />
+		</p>
+		<p>
+			비밀번호
+			<input name="userPWD" id="userPWD" type="password" />
+		</p>
+		<p>
+			제목
+			<input name="userTitle" type="text" />
+		</p>
+		<p>예약하실 객실을 선택하세요.
+			<label>
+				<input type="radio" name="userRoom" value="Single" checked />
+				Single
+			</label>
+			/
+			<label>
+				<input type="radio" name="userRoom" value="Double" />
+				Double
+			</label>
+			/
+			<label>
+				<input type="radio" name="userRoom" value="Twin" />
+				Twin
+			</label>
+			
+		</p>
+		<p>기타 패키지 옵션을 선택하세요<br />
+			<label>
+				<input type="checkbox" name="userOption1" value="조식" checked />
+				조식
+			</label>
+			<label>
+				<input type="checkbox" name="userOption2" value="바베큐" />
+				바베큐
+			</label>
+			<label>	
+				<input type="checkbox" name="userOption3" value="픽업서비스" />
+				픽업서비스
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="저장"/>
+			<input type="reset" value="취소"/>
+			<input type="button" value="이전 페이지"/>
+		</p>
+	</form>
+</body>
+</html>

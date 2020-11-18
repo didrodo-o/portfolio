@@ -1,0 +1,7 @@
+﻿.header{width: 700px; height: 400px; background: #ffff00; position: relative; margin: 0 auto;}
+#box1{position: absolute; top: 0; left: 0; background: #ff0000; width: 100px; height: 100px;}
+/* #box2{position: absolute; bottom: -50px; left: 0; background: #00ff00; width: 100px; height: 100px;} */
+#box2{position: absolute; bottom: 50%; left: 50%; background: #00ff00; width: 100px; height: 100px; margin-bottom: -50px; margin-left: -50px;}
+#box2_1{position: absolute; width: 100px; height: 100px; background: #0000ff; top: 0px; right: -100px; display: none;}
+
+#box2:hover #box2_1{display: block;}
