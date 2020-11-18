@@ -6,7 +6,7 @@
 		var ht = $(window).height();
 		$('section').height(ht);
 	});
-	
+
 	$('.r1').animate({top:'35%',left:'0'},900);
 	$('.r2').animate({bottom:'50%',right:'10%'},900);
 	$('.y1').animate({top:'15%',left:'25%'},1200);
@@ -26,7 +26,7 @@
 	$('.b_l_rl2').animate({bottom:'-120',left:'260'},1200);
 	$('.b_l_yf').animate({bottom:'-70',left:'150'},800);
 	$('.b_l_gl').animate({bottom:'-200',left:'-150'},1800,function(){
-		
+
 		$('section').on('mousemove',function(e){
 			var posX = e.pageX;
 			var posY = e.pageY;
@@ -35,7 +35,7 @@
 			$('.a3').css({'right':+(posX/20),'top':-(ht*2)+(posY/20)});
 		});
 	});
-	
+
 	$('.menu li').on('click',function(e){
 		e.preventDefault();
 		var ht = $(window).height();
@@ -43,7 +43,7 @@
 		var nowTop = i*ht;
 		$('html, body').stop().animate({'scrollTop': nowTop},2000);
 	});
-	
+
 	$(window).on('scroll',function(){
 		var ht = $(window).height();
 		var scroll = $(window).scrollTop();
@@ -55,8 +55,8 @@
 			};
 		};
 	});
-	
-	
+
+
 	var size = $('section').size();
 	$('section').on('mousewheel',function(event,delta){
 		if(delta>0 && $(this).index()>=1){
@@ -69,33 +69,33 @@
 		};
 	});
 
-	var typingBool = false; 
-	var typingIdx=0; 
+	var typingBool = false;
+	var typingIdx=0;
 	var liIndex = 0;
 	var liLength = $(".typing-txt>ul>li").length;
 
-	// 타이핑될 텍스트를 가져온다 
-	var typingTxt = $(".typing-txt>ul>li").eq(liIndex).text(); 
-	typingTxt=typingTxt.split(""); // 한글자씩 자른다. 
-	if(typingBool==false){ // 타이핑이 진행되지 않았다면 
-		typingBool=true; 
-		var tyInt = setInterval(typing,100); 
-	} 
-		 
-	function typing(){ 
+	// 타이핑될 텍스트를 가져온다
+	var typingTxt = $(".typing-txt>ul>li").eq(liIndex).text();
+	typingTxt=typingTxt.split(""); // 한글자씩 자른다.
+	if(typingBool==false){ // 타이핑이 진행되지 않았다면
+		typingBool=true;
+		var tyInt = setInterval(typing,100);
+	}
+
+	function typing(){
 		$(".typing ul li").removeClass("on");
 		$(".typing ul li").eq(liIndex).addClass("on");
-		if(typingIdx<typingTxt.length){ // 타이핑될 텍스트 길이만큼 반복 
-			$(".typing ul li").eq(liIndex).append(typingTxt[typingIdx]); // 한글자씩 이어준다. 
-			typingIdx++; 
+		if(typingIdx<typingTxt.length){ // 타이핑될 텍스트 길이만큼 반복
+			$(".typing ul li").eq(liIndex).append(typingTxt[typingIdx]); // 한글자씩 이어준다.
+			typingIdx++;
 		} else{
 			if(liIndex<liLength-1){
 				//다음문장으로  가기위해 인덱스를 1증가
-				liIndex++; 
+				liIndex++;
 				//다음문장을 타이핑하기위한 셋팅
 				typingIdx=0;
-				typingBool = false; 
-				typingTxt = $(".typing-txt>ul>li").eq(liIndex).text(); 
+				typingBool = false;
+				typingTxt = $(".typing-txt>ul>li").eq(liIndex).text();
 				//다음문장 타이핑전 1초 쉰다
 				clearInterval(tyInt);
 				//타이핑종료
@@ -103,13 +103,13 @@
 				//1초후에 다시 타이핑 반복 시작
 				tyInt = setInterval(typing,100);
 			},300);
-			} else if(liIndex==liLength-1){  
+			} else if(liIndex==liLength-1){
 				//마지막 문장까지 써지면 반복종료
 				clearInterval(tyInt);
 			}
-		} 
-	}  
-	
+		}
+	}
+
 	$('.chart1').easyPieChart({
         barColor: '#d64236',
 		trackColor: '#fff',
@@ -121,7 +121,7 @@
 		onStart: $.noop,
 		onStop: $.noop
     });
-	
+
 	$('.chart2').easyPieChart({
         barColor: '#1a8a66',
 		trackColor: '#fff',
@@ -133,7 +133,7 @@
 		onStart: $.noop,
 		onStop: $.noop
     });
-	
+
 	$('.chart3').easyPieChart({
         barColor: '#d64236',
 		trackColor: '#fff',
@@ -145,7 +145,7 @@
 		onStart: $.noop,
 		onStop: $.noop
     });
-	
+
 	$('.chart4').easyPieChart({
         barColor: '#1a8a66',
 		trackColor: '#fff',
@@ -157,14 +157,15 @@
 		onStart: $.noop,
 		onStop: $.noop
     });
-	
+
 	AOS.init({
 		duration: 1200
 	});
-	
+
 	$('.pv').each(function(){
 		var scroll_img = $(this).find('img');
 		var img_ht = scroll_img.height();
+    var scroll = $(window).scrollTop();
 		scroll.hover(
 			function(){
 				scroll.stop().animate({'top': 264-img_ht});
@@ -174,7 +175,7 @@
 			}
 		);
 	});
-	
+
 	var balloon = $('<div class="balloon"></div>').appendTo('body');
 	function updateBalloonPosition(x,y){//var x = e.pageX, y = e.pageY;
 		balloon.css({left: x+5, top: y});
@@ -197,7 +198,7 @@
 			updateBalloonPosition(e.pageX, e.pageY);
 		});
 	});
-	
+
 	$('.br ul li').each(function(){
 		var br = $(this);
 		br.hover(
@@ -231,7 +232,7 @@
 			var imageWidth = menuImg.find('img').innerWidth();
 			menuImg.animate({width: imageWidth},{duration:600, queue: false, easing: 'easeOutCubic'});
 			//queue:false(.stop과 같은 효과)
-			
+
 
 		},
 		function(){
@@ -242,24 +243,10 @@
 			open();
 		}
 	);
-	
+
 	$('.s8').ripples({
         resolution: 256,
         perturbance: 0.04
     });
-	
+
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
